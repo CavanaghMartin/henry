@@ -1,0 +1,21 @@
+.ImagenAsuperPoner {
+    position: absolute;
+    z-index: 1;
+    
+}
+.button{
+    position: absolute;
+    z-index: 2;  
+    font-size: 25px;
+    
+}
+.imagen1 {
+    height:100%;
+    width:100%; 
+    position: absolute;
+    z-index: -1;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+}

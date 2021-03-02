@@ -1,0 +1,85 @@
+.contenedor{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(19, 58, 110);
+}
+
+
+.card{
+	margin: auto;
+    display: flex;
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 3, 44);
+	margin-bottom: 20px;
+
+}
+
+
+
+.home{
+    color:honeydew;
+    /* background-image: url(https://wallpapercave.com/wp/wp6669283.jpg); */
+}
+
+#content-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.column{
+	width: 600px;
+	padding: 10px;
+
+}
+
+/* .featured{
+	max-width: 500px;
+	max-height: 600px;
+	object-fit: cover;
+	cursor: pointer;
+	border: 2px solid black;
+
+} */
+.info{
+    max-width: 350px;
+}
+.card button{
+	color:white;
+    background: rgb(1, 13, 53);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.pagination{
+	background-color: rgb(19, 58, 110);
+	color: white;
+}
+.pagination button{
+	color:white;
+    float: right;  
+    background: rgb(15, 39, 117);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+.thumbnail{
+	object-fit: cover;
+	max-width: 150px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: auto;
+	border: 2px solid black;
+
+}
+
+.thumbnail:hover{
+	opacity:1;
+}
+
+.active{
+	opacity: 1;
+}

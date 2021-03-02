@@ -1,0 +1,14 @@
+.subNavbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(31, 31, 31);
+  color: #ddd;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.subNavbar a {
+  color: rgb(17, 41, 255);
+}
+.subNavbar a:hover {
+   color: rgb(4, 4, 190)
+}

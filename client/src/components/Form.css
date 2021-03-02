@@ -1,0 +1,25 @@
+.formAdd {
+    height: 500px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p.danger {
+
+    display: inline;
+    
+    color: red;
+    font-size: 15px;
+}
+
+input.danger {
+    border: 2px solid red;
+}
+textarea.danger {
+    border: 2px solid red;
+}
